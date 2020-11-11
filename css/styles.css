@@ -1,0 +1,41 @@
+.text-center{
+    background-color: rgb(232, 223, 200);
+}
+
+.jumbotron{
+    color: black;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    font-weight: bold;
+}
+
+#winnings{
+    font-size: 50px;
+    background-color: grey;
+}
+
+img{
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+}
+
+button{
+     background-color: rgb(204, 201, 194);
+     border-color: black;
+     border-radius: 10px;
+     cursor: pointer;
+     padding: 5px;
+     text-decoration: underline;
+}
+
+button:hover{
+    transform: scale(1.5);
+}
+
+footer{
+    font-size: 10px;
+    background-color: DarkSalmon;
+    color: white;
+    padding : 5px;
+}
